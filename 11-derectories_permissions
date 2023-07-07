@@ -1,0 +1,16 @@
+julien@ubantu:/tmp/h$ ls -l
+total 20
+-rwxrwxr-x- l julien julien 24 sep 20 14:53 11-derectories_permissions
+drwx------2  julien julien 4096 sep 20 14:49 dir0
+drwx------2 julien julien 4096 sep 20 14:49 dir1
+drwx------2 julien julien 4096 sep 20 14:49 dir2
+-rw-rw-- l julien julien  23 sep 20 14:25 hello
+julien@ubantu:/tmp/h$ ./11-derectories_permissions
+julien@ubantu:/tmp/h$ ls -l
+total 20
+-rwxrwxr-x l julien julien 24 sep 20 14:53 11-derectories_permissions
+drwx--x--x 2 julien julien 4096 sep 20 14:49 dir0 
+drwx--x--x 2 julien julien 4096 sep 20 14:49 dir1 
+drwx--x--x 2 julien julien 4096 sep 20 14:49 dir2
+-rw-rw-r--l julien julien 23 sep 20 14:25 hello
+julien@ubanto:/tmp/h$ 
