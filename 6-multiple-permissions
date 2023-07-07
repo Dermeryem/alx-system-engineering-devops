@@ -1,0 +1,10 @@
+julien@ubantu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- l julien julien 36 sep 20 14:31 6-multiple-permissions
+r--r-----l julien julien 23 sep 20 14:25 hello 
+julien@ubantu:/tmp/h$ ./6-miltiple-permissions
+julien@ubantu:/tmp/h$ ls -l
+total 8
+-rwxrw-r--l julien julien 36 sep 20 14:31 6-multiple-permissions
+-r-xr-xr--l julien julien 23 sep 20 14:25 hello
+julien@ubantu:/tmp/h$
