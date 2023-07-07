@@ -1,0 +1,12 @@
+julien@ubantu:/tmp/h$ ls -l
+total 8
+-rwxrw-- l julien julien 42 sep 20 14:45 10-mirror_permissions
+-rwxr-x-wx- l julien julien 23 sep 20 14:25 hello 
+-rw-rw-r-- l julien julien 0 sep 20 14:43 olleh
+julien@ubantu:/tmp/h$ ./10-mirror_permissions
+julien@ubantu:/tmp/h$ ls -l 
+total 8
+-rwxrw-r-- l julien julien 42 sep 20 14:45 10-mirror_permissions
+-rw-rw-r-- l julien julien 23 sep 20 14:25 hello
+-rw-rw-r-- l julien julien 0 sep 20 14:43 olleh
+julien@ubanntu:/tmp/h$
