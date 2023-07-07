@@ -1,0 +1,12 @@
+julien@ubantu;/tmp/h$ Is -1
+total8
+-rwxrw-r-- 1 julien julien 28 sep 20 14:26 5-execute
+-rw-rw-r-- 1 julien julien 30 sep 14:25 hello
+julien@ubantu:/tmp/h$ ./hello
+bash: .hello: permission denied
+julien@ubantu:/tmp/h$ ./5-execute
+julien@ubantu:/tmp/h$ Is -1
+total8
+-rwxwr-r-- 1 julien julien 28 sep 20 14:26 5-execute
+-rwxrw-r-- l julien julien 23 sep 20 14:25 hello
+julien@ubantu:/tmp/h$
