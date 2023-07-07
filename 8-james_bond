@@ -1,0 +1,10 @@
+julien@ubantu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- l julien julien 28 sep 20 14:40 5-james_bond
+rwxr-x--x l julien julien 23 sep 20 14:25 hello
+julien@ubantu:/tmp/h$ ./8-james_ bond
+julien@ubantu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- l julien julien 28 sep 20 14:40 8-james_bond
+-------rwx l julien julien 23 sep 20 14:25 hello
+julien@ubantu:/tmp/h$
